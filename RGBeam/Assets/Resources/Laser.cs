@@ -29,6 +29,9 @@ public class Laser : MonoBehaviour
                 if (hit.collider.gameObject.GetComponent<CubeScript>())
                     hit.collider.gameObject.GetComponent<CubeScript>().LaserHit = true;
 
+                if (hit.collider.gameObject.GetComponent<Cube3Script>())
+                    hit.collider.gameObject.GetComponent<Cube3Script>().LaserHit = true;
+
             }
             
         }
