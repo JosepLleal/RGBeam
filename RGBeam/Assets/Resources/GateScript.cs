@@ -6,6 +6,7 @@ public class GateScript : MonoBehaviour
 {
 
     public bool LaserHit = false;
+    public bool Win = false;
     public float win_time = 3.0f;
 
     float time = 0.0f;
@@ -31,13 +32,14 @@ public class GateScript : MonoBehaviour
             rend.sharedMaterial = material[1];
 
             if (time >= win_time)
-                Debug.Log("WIN");
+                Win = true;
 
             LaserHit = false;
         }
         else
         {
             time = 0;
+            Win = false;
             rend.sharedMaterial = material[0];
         }
     }
