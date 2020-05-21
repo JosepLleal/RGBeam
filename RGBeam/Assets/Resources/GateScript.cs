@@ -9,17 +9,16 @@ public class GateScript : MonoBehaviour
     public float win_time = 3.0f;
 
     float time = 0.0f;
-    
 
-    //public Material[] material;
-    //Renderer rend;
+    public Material[] material;
+    Renderer rend;
 
     // Start is called before the first frame update
     void Start()
     {
-        //rend = GetComponent<Renderer>();
-        //rend.enabled = true;
-        //rend.sharedMaterial = material[0];
+        rend = GetComponent<Renderer>();
+        rend.enabled = true;
+        rend.sharedMaterial = material[0];
     }
 
     // Update is called once per frame
@@ -29,7 +28,8 @@ public class GateScript : MonoBehaviour
         if(LaserHit == true)
         {
             time += Time.deltaTime;
-            //rend.sharedMaterial = material[1];
+            rend.sharedMaterial = material[1];
+
             if (time >= win_time)
                 Debug.Log("WIN");
 
@@ -38,7 +38,7 @@ public class GateScript : MonoBehaviour
         else
         {
             time = 0;
-            //rend.sharedMaterial = material[0];
+            rend.sharedMaterial = material[0];
         }
     }
 }
