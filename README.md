@@ -13,6 +13,9 @@ Click on the links to download the targets. You will need to print them in order
 ## Gameplay video
 [RGBeam Gameplay](https://youtu.be/9jS6Bpy3YF0)
 
+## Presentation
+[RGBeam explanation](https://docs.google.com/presentation/d/1j1BNdEeZZ7mP_DVX_iisnyxmkXpLH4oqn6tvR4jTj08/edit?usp=sharing)
+
 ## Team
 Josep Lleal
    - [Josep's GitHub Link](https://github.com/JosepLleal)
