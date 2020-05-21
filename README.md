@@ -9,6 +9,9 @@ Click on the links to download the targets. You will need to print them in order
 - [Arrow2](https://github.com/JosepLleal/RGBeam/raw/master/Targets/arrow2.jpg)
 - [Split1](https://github.com/JosepLleal/RGBeam/raw/master/Targets/split.jpg)
 - [Split2](https://github.com/JosepLleal/RGBeam/raw/master/Targets/split2.jpg)
+
+## Download APK
+To download the APK click [here](https://github.com/JosepLleal/RGBeam/releases/download/0.1/RGBeam.apk).
  
 ## Gameplay video
 [RGBeam Gameplay](https://youtu.be/9jS6Bpy3YF0)
